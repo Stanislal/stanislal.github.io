@@ -1,12 +1,9 @@
 <template>
-<div id="app">
+  <div id="app">
     <Header />
     <router-view />
     <Footer />
-    <div>
-
-    </div>
-
+    <div></div>
   </div>
 </template>
 
@@ -21,5 +18,8 @@ export default {
 </script>
 
 <style>
-
+body {
+  margin: 0;
+  padding: 0;
+}
 </style>
